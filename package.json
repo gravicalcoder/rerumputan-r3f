@@ -16,7 +16,8 @@
     "react-dom": "18.0.0",
     "react-scripts": "5.0.0",
     "simplex-noise": "3.0.1",
-    "three": "0.139.2"
+    "three": "0.139.2",
+    "vercel": "^31.2.0"
   },
   "devDependencies": {
     "typescript": "3.8.3"
@@ -25,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "vercel --prod"
   },
   "browserslist": [
     ">0.2%",
